@@ -47,3 +47,23 @@ print("Position of 'california' in tmpstr2")
 print(tmpstr2.find("california"))
 
 # Exploring the “split”, “isdigit”, and “index” methods
+
+#'isdigit'
+x = tmpstr2.isdigit()
+print(x)
+
+#'split'
+txt = "welcome to the jungle"
+
+x = txt.split()
+
+print(x)
+
+#'index'
+txt = "Hello, welcome to my world."
+
+x = txt.index("welcome")
+
+print(x)
+
+# Booleans.... https://ucdavis-bioinformatics-training.github.io/2024-November-Introduction-To-Python-For-Bioinformatics/python/python2
