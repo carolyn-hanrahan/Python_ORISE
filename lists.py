@@ -55,3 +55,20 @@ print("gene_list2:", gene_list2)
 # use the "in" keyword to check for membership in a list # this seems useful for checking the contents of a list. 
 print("Is 'BRCA2' in gene_list?: ")
 print("BRCA2" in gene_list)
+
+exit()
+
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Keys and dictionaries 
+
+# dictionary = a collection of {key:value} pairs 
+
+# example
+
+friendsColors = {"Rachel": "purple",
+                  "Zak": "green",
+                  "Carolyn": "blue-ish",
+                  "Shilpa": "orange",
+                  "Cian": "neon pink"}
+
+
+print(friendsColors.get("Zak"))
