@@ -171,3 +171,9 @@ import math
 print("Ceiling of 3.2 is:", math.ceil(3.2))
 print("Floor of 3.2 is:", math.floor(3.7))
 print("Truncating 3.7:", int(3.7))
+
+# The math package has many common math functions 
+
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+# Basic Data Strucutres: Lists and Dictionaries -> See new file "lists.py"
+
