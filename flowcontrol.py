@@ -149,7 +149,7 @@ for gene in gene_exp_dict.keys():
 # While loops
 # a while loop is used when you don't know how many times something will loop. 
 # the body of the loop will continue to execute over and over until condition becomes false. 
-    
+#    
 print("\nWhile Loops\n")
 
 n = 1
@@ -194,3 +194,19 @@ employees = {"1234": "Steve Stephenson, M, 10/24/1900",
 
 for i in employees:
     print(employees[i])
+
+
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ nested for loop version... not exactly sure if this is what they wanted ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+          
+
+# Nested loop to print all expression values
+          
+# Simulating a nested structure
+data = [{"Gene_Expressions": gene_exp_dict}]
+
+# Nested loops
+for dataset in data:  # Outer loop (iterates over datasets)
+    print("Dataset:")
+    for gene, expression_value in dataset["Gene_Expressions"].items():  # Inner loop
+        print(f"  Gene: {gene}, Expression Value: {expression_value}")
