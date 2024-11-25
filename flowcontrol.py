@@ -146,6 +146,51 @@ print("\nIterating through a dictionary\n")
 for gene in gene_exp_dict.keys():
     print("Gene", gene, "has expression value:", gene_exp_dict[gene])
 
+# While loops
+# a while loop is used when you don't know how many times something will loop. 
+# the body of the loop will continue to execute over and over until condition becomes false. 
+    
+print("\nWhile Loops\n")
+
+n = 1
+fact = 1
+while (n < 8):
+    fact = fact * n
+    n += 1
+print(fact)
+
+# Break and continue 
+
+gene_list = ["DDX11L1","WASH7P","MIR6859-1","MIR1302-2HG","MIR1302-2","FAM138A"]
 
 
+print("\nBreak\n")
 
+for id in gene_list:
+    print(id + " is a gene of interest")
+    if (id == "MIR1302-2HG"):
+        break
+
+print("\nContinue\n")
+
+for id in gene_list:
+    if (id == "MIR1302-2HG"):
+        continue
+
+    print(id + " is a gene of interest")
+
+#PRACTICE: Using your personnel dictionary (from the Dictionary practice), use a 
+#single loop to print out all of the information for all of the employees. Using 
+#the gene expression dictionary (from the Dictionary practice), use multiple nested 
+#loops to print out all of the expression values individually for each sample.
+
+# Start by recreating that dictionary in this script: 
+    
+# Creating a dictionary with keys that have multiple values associated with them 
+
+employees = {"1234": "Steve Stephenson, M, 10/24/1900",
+             "1235": "Malachi Dorby, M, 12/12/23",
+             "1236": "Ellie Fluffball, F, 08/08/2021"}
+
+for i in employees:
+    print(employees[i])
