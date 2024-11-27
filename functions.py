@@ -146,3 +146,8 @@ f3.close()
 f4 = open("myfile.txt","r")
 print(f4.read())
 f4.close()
+
+
+# Errors: 
+
+# Pro tip: add print statements throughout your code to determine where errors may be occuring. 
